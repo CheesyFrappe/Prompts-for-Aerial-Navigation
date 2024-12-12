@@ -52,8 +52,19 @@ python chatgpt_airsim.py --testname first_test --model gpt-3.5-turbo
 python evaluation.py --reference_path ../dataset/first_test.txt --predicted_path <path-to-predicted-trajectory>
 ```
 
-
+## Citation
+If you find the method or code useful, please cite:
+```bibtex
+@inproceedings{10773467,
+  author={Balcı, Emirhan and Sarıgül, Mehmet and Ata, Barış},
+  booktitle={2024 9th International Conference on Computer Science and Engineering (UBMK)}, 
+  title={Prompting Large Language Models for Aerial Navigation}, 
+  year={2024},
+  doi={10.1109/UBMK63289.2024.10773467}
+}
+```
 
 <!--- https://github.com/CheesyFrappe/Prompts-for-Robotics/assets/80858788/d4ef9ece-b2d5-49e3-a1dc-934031be7a6e --> 
+---
 
 Feel free to [contact](mailto:emirbalci360@gmail.com) for any questions.
